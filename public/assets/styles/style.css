@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #FFF
+}
+
+.p-absolute {
+    width: 100%;
+    position: fixed;
+    background-color: #FFF;
+}
+
+header {
+    height: 100px;
+    background-color: #1aba4b;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 100%
+}
+
+.form {
+    padding: 41px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.table {
+    padding: 358px 41px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+hr {
+    border: 1px solid #1aba4b;
+    background-color: #1aba4b;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 500px;
+    height: 50px;
+    padding: 0 20px;
+    border: 2px solid #1aba4b;
+    border-radius: 7px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #827F7F;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    width: 270px;
+    height: 53px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFF;
+    background-color: #1aba4b;
+    border: none;
+    border-radius: 7px;
+}
+
+button:active {
+    background-color: #bde3c6;
+}
+
+.refresh {
+    display: flex;
+    align-items: center;
+    color: #00F;
+    font-size: 13px;
+    max-width: 200px;
+}
+
+.refresh img {
+    width: 16px;
+}
+
+.refresh:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+tr:first-of-type {
+    background-color: #1aba4b;
+    color: #FFF
+}
+
+td {
+    height: 50px;
+    text-align: center;
+}
+
+td:nth-child(1) {
+    width: 120px
+}
+
+td:nth-child(2) {
+    width: 533px
+}
+
+td:nth-child(3) {
+    width: 534px
+}
+
+td:nth-child(4) {
+    width: 120px;
+    cursor: pointer
+}
+
+td:nth-child(5) {
+    width: 120px;
+    cursor: pointer
+}
+
+img {
+    width: 25px;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <title>FRONT API</title>
+</head>
+<body>
+    <section class="p-absolute">
+        <header>
+            <p>FRONT API</p>
+        </header>
+
+        <section class="form">
+            <h2>FORMULÁRIO DE CADASTRO DE USUÁRIOS</h2>
+            <p>Para inseir usuários na lista, preencha os dados abaixo.</p>
+            <hr>
+            <form action="">
+                <input type="text" placeholder="Nome completo" id="nome">
+                <input type="email" placeholder="E-mail" id="email">
+                <button type="button" id="cadastrar">Cadastrar</button>
+            </form>
+        </section>
+    </section>
+
+    <section class="table">
+        <h2>LISTA DE USUÁRIOS CADASTRADOS</h2>
+        <p>Abaixo, você pode ver os usuários registrados, podendo editá-los ou removê-los.</p>
+        <div class="refresh">Atualizar tabela&nbsp;<img src="./assets/images/refresh.png"></div>
+        <hr>
+        <table id="table">
+            <tr>
+                <td>#ID</td>
+                <td>NOME</td>
+                <td>E-MAIL</td>
+                <td>EDITAR</td>
+                <td>EXCLUIR</td>
+            </tr>
+        </table>
+    </section>
+    
+    <script type="module" src="./index.js"></script>
+</body>
+</html>

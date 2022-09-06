@@ -1,0 +1,25 @@
+GET http://localhost:3000/usuarios
+
+###
+
+POST http://localhost:3000/usuarios
+content-type: application/json
+
+{
+    "email": "terezinha.josefa@googlemail.com",
+    "nome": "Josefa Terezinha Gertrudes"
+}
+
+###
+
+PUT http://localhost:3000/usuarios/22
+content-type: application/json
+
+{
+    "email": "dona.gertrudes@youtubemail.com",
+    "nome": "Dona Josefa Gertrudes"
+}
+
+###
+
+DELETE http://localhost:3000/usuarios/22
