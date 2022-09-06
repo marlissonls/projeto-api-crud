@@ -31,7 +31,7 @@ export function reqShowUsersFn() {
                                                 <img src="./assets/images/excluir.png">
                                             </span>`
 
-            if(data.indexOf(data[i])%2 === 0) {
+            if(i%2 === 0) {
                 nRow.style.backgroundColor = "#bde3c6"
             } else {
                 nRow.style.backgroundColor = "#f8f8f8"
